@@ -1,0 +1,17 @@
+{
+  "hash": "59a16c7795206c22bbe2c27a1ff10136",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"junk\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: package 'ggplot2' was built under R version 4.3.2\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: package 'tidyr' was built under R version 4.3.2\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(readxl)\n\nsim <- read.csv(\"similarity_matrix.csv\")\nfull <- read_excel(\"Covidfull.xlsx\")\n\ncombstuff <- full %>%\n  left_join(sim %>% select(ID, X300, X301, X302, X303), by = \"ID\")\n  \nggplot(combstuff, aes (x = X302, y = X303, color = Politics)) +\n  geom_point()+\n  xlim(0.5, 1)+\n  ylim(0.5, 1)+\n  facet_wrap(~Politics)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: Removed 207 rows containing missing values or values outside the scale range\n(`geom_point()`).\n```\n\n\n:::\n\n::: {.cell-output-display}\n![](similar_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "similar_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
