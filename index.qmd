@@ -21,6 +21,8 @@ Students are taught writing and presentation skills to improve their communicati
 
 [Barrie's GitHub](https://github.com/ProfessorPolymorphic){target="_blank"}
 
+[BCB521 Repository](https://github.com/ProfessorPolymorphic/BCB521){target="_blank"}
+
 ### Student Repositories
 
 

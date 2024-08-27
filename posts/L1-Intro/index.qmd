@@ -43,6 +43,25 @@ image: "braindata.png"
 -   Your degree progress
 -   Your technical proficiency 
 
+## YVA
+
+![](diablobee.png){.absolute height=80%}
+
+## SEAN
+
+![](ultimate.png){.absolute height=80%}
+
+## MORJINA
+
+![](killi.png){.absolute height=80%}
+
+## ZOE
+
+![](infobee.png){.absolute height=80%}
+
+
+
+
 ## COURSE SUMMARY
 
 Students completing this course will be able to:
@@ -64,22 +83,34 @@ Students completing this course will be able to:
 
 Who is the AUDIENCE and what is the GOAL?
 
+![](polisci.png)
+
 ## THE AUDIENCE
 
-What kind of audiences?  Can they be categorized or grouped?
+What kind of audiences?  
+
+Can they be categorized or grouped?
+
+
 
 ## THE GOAL
 
-What kind of goals?  Can they be categorized or grouped?
+What kind of goals?  
+
+Can they be categorized or grouped?
 
 
 ## THE STRATEGY
 
-How can the goal be achieved with this audience?  Is this concept too abstract to discuss?
+How can the goal be achieved with this audience?  
+
+Is this concept too abstract to discuss?
 
 ## THE MEDIUM
 
-What are the possible communication channels with our audience?  How do these channels align with our modes of communication (showing, speaking, writing)?
+What are the possible communication channels with our audience?  
+
+How do these channels align with our modes of communication (showing, speaking, writing)?
 
 
 
