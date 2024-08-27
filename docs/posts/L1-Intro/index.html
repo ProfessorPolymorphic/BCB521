@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.550">
 
   <meta name="author" content="Barrie Robison">
-  <meta name="dcterms.date" content="2024-01-10">
+  <meta name="dcterms.date" content="2024-08-27">
   <title>BCB521 - LECTURE 1 - INTRO</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="styles.css">
@@ -405,7 +340,7 @@ Barrie Robison
 </div>
 </div>
 
-  <p class="date">2024-01-10</p>
+  <p class="date">2024-08-27</p>
 </section>
 <section id="who-am-i" class="slide level2">
 <h2>WHO AM I?</h2>
@@ -419,13 +354,13 @@ Barrie Robison
 </section>
 <section id="who-are-you" class="slide level2">
 <h2>WHO ARE YOU?</h2>
-<p>“…The course is designed to be”discipline agnostic” - each student is encouraged to use data sets that they deem important / interesting. The goal is to have students learn how to develop visualizations that are relevant to their own disciplinary interests…”</p>
+<p>“…The course is designed to be”discipline agnostic” - each student is encouraged to use their own data, or public data sets that they deem important / interesting. …”</p>
 <h3 id="briefly">Briefly:</h3>
 <ul>
 <li>Your name</li>
 <li>Your discipline</li>
 <li>Your degree progress</li>
-<li>Your technical proficiency with data visualization</li>
+<li>Your technical proficiency</li>
 </ul>
 </section>
 <section id="course-summary" class="slide level2">
@@ -433,233 +368,43 @@ Barrie Robison
 <p>Students completing this course will be able to:</p>
 <div class="r-fit-text">
 <ol type="1">
-<li>Describe and manipulate tabular, network, and spatial data; transform these data into a form suitable for visualization.</li>
-<li>Make effective data visualization design choices related to marks and channels, spatial arrangement, and components of color.</li>
-<li>Design effective data visualizations for tabular, network, and spatial data with quantitative and categorical attributes.</li>
-<li>Implement their data visualization designs using existing tools in R (or other toolkits preferred by the student).</li>
-<li>Explain whether a visual encoding is perceptually appropriate for a specific combination of task and data.</li>
-<li>Demonstrate their skills with at least two novel visualizations suitable suitable for inclusion in an online Data Science Portfolio.</li>
+<li><p>Identify, understand, and describe the critical characteristics, needs, and expectations of the various audiences with whom they will communicate.</p></li>
+<li><p>Develop and apply effective writing and presentation skills to communicate data-driven insights clearly and impactfully to both specialist and general audiences.</p></li>
+<li><p>Implement reproducible research practices using literate programming (Quarto/Markdown) and version control (GitHub) to enhance the transparency and reproducibility of their work.</p></li>
+<li><p>Create compelling narratives around data that are tailored to specific disciplines while remaining accessible to interdisciplinary audiences.</p></li>
+<li><p>Critically evaluate and apply appropriate data visualization techniques to support written and verbal communications, enhancing the accessibility of complex data analysis results.</p></li>
 </ol>
-<p>The course materials are located on <a href="https://canvas.uidaho.edu/courses/17806">Canvas</a> and the <a href="https://github.com/ProfessorPolymorphic">course website</a>.</p>
 </div>
 </section>
-<section id="visualization" class="slide level2">
-<h2>VISUALIZATION</h2>
-<p>Computers provide <span class="red">visual</span> representations of datasets designed to help people carry out tasks more effectively.</p>
-<h3 id="tamara-munzner"><span class="absolute" style="left: 10px; bottom: 160px; ">Tamara Munzner</span></h3>
-<p><span class="absolute" style="left: 10px; bottom: 120px; ">Department of Computer Science</span></p>
-<p><span class="absolute" style="left: 10px; bottom: 80px; "><a href="https://www.cs.ubc.ca/group/infovis/">InfoVis Group</a></span></p>
-<p><span class="absolute" style="left: 10px; bottom: 40px; ">University of British Columbia</span></p>
-<p><img data-src="VADcover.jpg" class="absolute" style="bottom: 70px; right: 10px; width: 300px; "> <img data-src="TamaraMunzner.jpg" class="absolute" style="top: 240px; left: 10px; width: 330px; "></p>
+<section id="central-dogma" class="slide level2">
+<h2>CENTRAL DOGMA</h2>
+<p>Who is the AUDIENCE and what is the GOAL?</p>
 </section>
-<section id="the-human" class="slide level2">
-<h2>THE HUMAN</h2>
-<p><strong>Why have a human in the loop?</strong></p>
-<p>Computer-based visualization systems provide visual representations of datasets designed to help <span class="red">people</span> carry out <span class="red">tasks</span> more effectively.</p>
-<ul>
-<li><p>We don’t need visualization when a <strong>trusted</strong> fully automatic solution exists.</p></li>
-<li><p>Visualization is suitable when there is a need to <span class="red">augment human capabilities</span> rather than replace people with computational decision-making methods.</p></li>
-</ul>
+<section id="the-audience" class="slide level2">
+<h2>THE AUDIENCE</h2>
+<p>What kind of audiences? Can they be categorized or grouped?</p>
 </section>
-<section id="when-to-visualize" class="slide level2">
-<h2>WHEN TO VISUALIZE</h2>
-<p><strong>Visualization is useful when:</strong></p>
-<div class="r-fit-text">
-<ul>
-<li>The analysis problem is ill-specified and we don’t know exactly what questions to ask in advance.</li>
-<li>We are interested in long-term use for end users (ex: exploratory analysis of scientific data).</li>
-<li>We are presenting known results (ex: DATA JOURNALISM - <a href="https://www.nytimes.com/section/upshot">New York Times Upshot</a>).</li>
-<li>We need a stepping stone to assess requirements before developing models.</li>
-<li>Developers of an automatic solution want to refine &amp; determine parameters.</li>
-<li>We need to help end users of automatic solutions verify and build trust.</li>
-</ul>
-</div>
+<section id="the-goal" class="slide level2">
+<h2>THE GOAL</h2>
+<p>What kind of goals? Can they be categorized or grouped?</p>
 </section>
-<section id="the-representation" class="slide level2">
-<h2>THE REPRESENTATION</h2>
-<p>Computer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.</p>
-<p>EXTERNAL REPRESENTATIONS: Replace <span class="red">cognition</span> with <span class="red">perception</span>.</p>
+<section id="the-strategy" class="slide level2">
+<h2>THE STRATEGY</h2>
+<p>How can the goal be achieved with this audience? Is this concept too abstract to discuss?</p>
 </section>
-<section id="why-depend-on-vision" class="slide level2">
-<h2>WHY DEPEND ON VISION?</h2>
-<p>Computer-based visualization systems provide <span class="red">visual representations</span> of datasets designed to help people carry out tasks more effectively.</p>
-<div class="r-fit-text">
-<ul>
-<li>The human visual system is a high-bandwidth channel to the brain.</li>
-<li>Overview is possible due to background processing, providing the subjective experience of seeing everything simultaneously.</li>
-<li>Significant processing occurs in parallel and pre-attentively.</li>
-<li><strong>What about sound?</strong> lower bandwidth and different semantics, overview not supported, subjective experience of sequential stream.</li>
-<li><strong>What about touch/haptics?</strong> impoverished record/replay capacity, only very low-bandwidth communication thus far.</li>
-<li><strong>What about taste, smell?</strong> no viable record/replay devices.</li>
-</ul>
-</div>
+<section id="the-medium" class="slide level2">
+<h2>THE MEDIUM</h2>
+<p>What are the possible communication channels with our audience? How do these channels align with our modes of communication (showing, speaking, writing)?</p>
 </section>
-<section id="why-represent-all-the-data" class="slide level2">
-<h2>WHY REPRESENT (ALL THE) DATA?</h2>
-<p>Computer-based visualization systems provide visual representations of <span class="red">datasets</span> designed to help people carry out tasks more effectively.</p>
-<div class="r-fit-text">
-<ul>
-<li>summaries lose information</li>
-<li>details matter</li>
-<li>confirm expected and find unexpected patterns</li>
-<li>assess validity of statistical model</li>
-<li>ANSCOMBE’S QUARTET is a fun example that we shall use to illustrate these points!</li>
-</ul>
-</div>
-</section>
-<section id="anscombes-quartet" class="slide level2">
-<h2>ANSCOMBE’S QUARTET</h2>
-<div class="columns">
-<div class="column" style="font-size: 25px">
-<div class="cell" data-fontsize="2">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a></a><span class="fu">library</span>(grid)</span>
-<span id="cb1-3"><a></a><span class="fu">library</span>(gridExtra)</span>
-<span id="cb1-4"><a></a><span class="fu">library</span>(datasets)</span>
-<span id="cb1-5"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-6"><a></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-7"><a></a>datasets<span class="sc">::</span>anscombe</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>   x1 x2 x3 x4    y1   y2    y3    y4
-1  10 10 10  8  8.04 9.14  7.46  6.58
-2   8  8  8  8  6.95 8.14  6.77  5.76
-3  13 13 13  8  7.58 8.74 12.74  7.71
-4   9  9  9  8  8.81 8.77  7.11  8.84
-5  11 11 11  8  8.33 9.26  7.81  8.47
-6  14 14 14  8  9.96 8.10  8.84  7.04
-7   6  6  6  8  7.24 6.13  6.08  5.25
-8   4  4  4 19  4.26 3.10  5.39 12.50
-9  12 12 12  8 10.84 9.13  8.15  5.56
-10  7  7  7  8  4.82 7.26  6.42  7.91
-11  5  5  5  8  5.68 4.74  5.73  6.89</code></pre>
-</div>
-</div>
-</div><div class="column" style="font-size: 25px">
-<h4 id="anscombes-quartet-1">Anscombe’s Quartet</h4>
-<p>The four x-y pairs have identical summary statistics.</p>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>tidy_anscombe <span class="ot">&lt;-</span> anscombe <span class="sc">%&gt;%</span></span>
-<span id="cb3-2"><a></a> <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">everything</span>(),</span>
-<span id="cb3-3"><a></a>              <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">".value"</span>, <span class="st">"set"</span>),</span>
-<span id="cb3-4"><a></a>              <span class="at">names_pattern =</span> <span class="st">"(.)(.)"</span>)</span>
-<span id="cb3-5"><a></a>tidy_anscombe_summary <span class="ot">&lt;-</span> tidy_anscombe <span class="sc">%&gt;%</span></span>
-<span id="cb3-6"><a></a>  <span class="fu">group_by</span>(set) <span class="sc">%&gt;%</span></span>
-<span id="cb3-7"><a></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="at">.cols =</span> <span class="fu">everything</span>(),</span>
-<span id="cb3-8"><a></a>                   <span class="at">.fns =</span> <span class="fu">lst</span>(min,max,median,mean,sd,var),</span>
-<span id="cb3-9"><a></a>                   <span class="at">.names =</span> <span class="st">"{col}_{fn}"</span>))</span>
-<span id="cb3-10"><a></a><span class="co">#&gt; `summarise()` ungrouping output (override with `.groups` argument)</span></span>
-<span id="cb3-11"><a></a></span>
-<span id="cb3-12"><a></a>vars<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">"set"</span>, <span class="st">"x_mean"</span>, <span class="st">"x_var"</span>,  <span class="st">"y_mean"</span>, <span class="st">"y_var"</span>)</span>
-<span id="cb3-13"><a></a>thing<span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(tidy_anscombe_summary[vars])</span>
-<span id="cb3-14"><a></a>knitr<span class="sc">::</span><span class="fu">kable</span>(thing)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">set</th>
-<th style="text-align: right;">x_mean</th>
-<th style="text-align: right;">x_var</th>
-<th style="text-align: right;">y_mean</th>
-<th style="text-align: right;">y_var</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">1</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">7.500909</td>
-<td style="text-align: right;">4.127269</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">7.500909</td>
-<td style="text-align: right;">4.127629</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">7.500000</td>
-<td style="text-align: right;">4.122620</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">7.500909</td>
-<td style="text-align: right;">4.123249</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="viz-matters" class="slide level2">
-<h2>VIZ MATTERS</h2>
-<div class="cell" data-fontsize="2">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">ggplot</span>(tidy_anscombe,</span>
-<span id="cb4-2"><a></a>       <span class="fu">aes</span>(<span class="at">x =</span> x,</span>
-<span id="cb4-3"><a></a>           <span class="at">y =</span> y)) <span class="sc">+</span></span>
-<span id="cb4-4"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb4-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> tidy_anscombe_summary, <span class="fu">aes</span>(<span class="at">x=</span>x_mean, <span class="at">y =</span> y_mean, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">size =</span> <span class="dv">5</span>),</span>
-<span id="cb4-6"><a></a>             <span class="at">show.legend =</span> <span class="cn">FALSE</span>)<span class="sc">+</span></span>
-<span id="cb4-7"><a></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>set) <span class="sc">+</span></span>
-<span id="cb4-8"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
-</div>
-<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"><div class="footer">
-<p>Learn more: <a href="https://www.njtierney.com/post/2020/06/01/tidy-anscombe/">TIDY ANSCOMBE</a></p>
-</div>
-</section>
-<section id="resource-limitations" class="slide level2">
-<h2>RESOURCE LIMITATIONS</h2>
-<p>Visualization designers must take into account three very different kinds of resource limitations:</p>
-<ul>
-<li>Limitations of computers.</li>
-<li>Limitations of humans.</li>
-<li>Limitations of displays.</li>
-</ul>
-</section>
-<section id="computational-limits" class="slide level2">
-<h2>COMPUTATIONAL LIMITS</h2>
-<p>CPU time</p>
-<p>System Memory</p>
-</section>
-<section id="display-limits" class="slide level2">
-<h2>DISPLAY LIMITS</h2>
-<p>Pixels are precious and are the most constrained resource.</p>
-<ul>
-<li><span class="red">Information Density</span>: ratio of space used to encode information vs unused whitespace.</li>
-<li>There is a tradeoff between clutter and wasting space.</li>
-<li>Designer must find the sweet spot between dense and sparse.</li>
-</ul>
-</section>
-<section id="human-limits" class="slide level2">
-<h2>HUMAN LIMITS</h2>
-<ul>
-<li>Time</li>
-<li>Memory</li>
-<li>Attention</li>
-</ul>
-<p><img data-src="braindata.png" class="absolute" style="bottom: 100px; right: 10px; height: 500px; "></p>
+<section id="technical-components" class="slide level2">
+<h2>TECHNICAL COMPONENTS</h2>
+<p><a href="../../posts/A1-Lit-Prog/index.html">Literate Programming</a></p>
+<p>Version Control</p>
+<p>Artificial Intelligence</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-<p><a href="https://canvas.uidaho.edu/courses/25613" target="_blank">CANVAS</a>…<a href="https://professorpolymorphic.github.io/BCB520/" target="_blank">HOME</a></p>
+<p><a href="https://professorpolymorphic.github.io/BCB521/" target="_blank">HOME</a></p>
 </div>
 </div>
 </section>
@@ -875,44 +620,6 @@ Barrie Robison
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -12,18 +12,21 @@ date: "2024-08-12"
 
 ## Course Description
 
-This class will help students establish a core understanding of data visualization. We will consider how data type (including tabular, network, and spatial data) interacts with visualization task to guide design choices. Diverse types of visual encodings and how they relate to human perception will be presented, along with practical exercises using the R programming language. Upon completion of the course, students will understand WHY particular visualization approaches are effective for a given data set and HOW to implement those visualizations using R. The course is designed to be "discipline agnostic" - each student is encouraged to use data sets that they deem important / interesting. The goal is to have students learn how to develop visualizations that are relevant to their own disciplinary interests.
+Students are taught writing and presentation skills to improve their communication of data-driven insights to specialist and lay audiences. The course emphasizes reproducible research practices, including literate programming (Quarto / Markdown) and version control (GitHub). Course content includes the conceptual foundations of communicating with data along with written and verbal assignments using data sets individualized to each student’s interest. The course is designed to be "discipline agnostic" - each student is encouraged to use their own data, or public data sets that they deem important / interesting. 
 
 ## Course Objectives
 
 Students completing this course will be able to:
 
-1.  Describe and manipulate tabular, network, and spatial data; transform these data into a form suitable for visualization.
-2.  Analyze data visualization design choices related to marks and channels, spatial arrangement, and components of color.
-3.  Design new data visualizations with appropriate use of visual channels for tabular, network, and spatial data with quantitative and categorical attributes.
-4.  Implement their data visualization designs using existing tools in R (or other toolkits preferred by the student).
-5.  Explain whether a visual encoding is perceptually appropriate for a specific combination of task and data.
-6.  Demonstrate their skills with at least two novel visualizations suitable for inclusion in an online Data Science Portfolio.
+1.  Identify, understand, and describe the critical characteristics, needs, and expectations of the various audiences with whom they will communicate.
+
+2. Develop and apply effective writing and presentation skills to communicate data-driven insights clearly and impactfully to both specialist and general audiences.
+
+3. Implement reproducible research practices using literate programming (Quarto/Markdown) and version control (GitHub) to enhance the transparency and reproducibility of their work.
+
+4. Create compelling narratives around data that are tailored to specific disciplines while remaining accessible to interdisciplinary audiences.
+
+5. Critically evaluate and apply appropriate data visualization techniques to support written and verbal communications, enhancing the accessibility of complex data analysis results.
 
 ## Required Readings
 

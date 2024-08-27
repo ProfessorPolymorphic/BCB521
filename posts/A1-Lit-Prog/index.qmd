@@ -1,8 +1,8 @@
 ---
 title: "ASSIGNMENT 1 - Fun with literate programming."
 author: "Barrie Robison"
-date: "2024-01-10"
-categories: [Assignment, DataViz, Quarto]
+date: "2024-08-27"
+categories: [Assignment, Literate Programming, Quarto]
 image: "Cthulhuhacking1.png"
 description: "Source code hybridized with documentation adds to your data science spellbook."
 ---
@@ -45,7 +45,7 @@ Python is an open source general purpose programming language. It wasn't develop
 
 ### [Tableau](https://www.tableau.com)
 
-Tableau is proprietary software that is very powerful for creating beautiful and functional data visualizations. It can integrate with all sorts of data sources and is used a lot for analytics, especially in the business world. The downsides (that occur to me at least) are that it costs money, it is not open source, and is more of a one-trick-pony than the programming languages on this list.
+Tableau is proprietary software that is very powerful for creating beautiful and functional data visualizations. It can integrate with all sorts of data sources and is used a lot for analytics, especially in the business world. The downsides (that occur to me at least) are that it costs money, it is not open source, and is more of a one-trick-pony than the programming languages on this list.  It may be a great tool in your communication tool kit, but you will need to use additional things for communication tasks that go beyond "showing" into speaking and writing.
 
 ### [Javascript](https://www.javascript.com)
 
@@ -59,7 +59,7 @@ Observable is a set of extensions to Javascript that features something called r
 
 After that long introduction, I suppose you are wondering what I want you to actually DO today.
 
-**Well, I want you to set up your publishing system and preferred language on your computer. Then I want you to recreate the classic figure from Anscombe's Quartet.**
+**Well, I want you to set up your publishing system and preferred language on your computer. Then I want you to create a quarto project and render an html page.**
 
 Now, you might be asking...
 
@@ -69,19 +69,12 @@ Here is the dirty little secret of modern education.
 
 **The Internet Exists.**
 
-While I could use up an entire 90 minute lecture telling you how to:
+While I could use up an entire 50 minute lecture telling you how to:
 
 -   Download and install R, [R-Studio](https://posit.co/downloads/){target="_blank"}, and Quarto (included by default with R-Studio).
 
 -   [Create a Quarto document that will publish in the .html format](https://quarto.org/docs/output-formats/html-basics.html){target="_blank"}
 
--   [Install the R packages you will need](https://www.dataquest.io/blog/install-package-r/){target="_blank"}
-
--   [Tidy up the Anscombe's Quartet data](https://www.njtierney.com/post/2020/06/01/tidy-anscombe/){target="_blank"}
-
--   Calculate the summary statistics for each x y pair
-
--   Make a nice little plot...
 
 I'm not going to do that.
 
@@ -89,12 +82,8 @@ Instead, I want you to use the resources I point towards, or other resources tha
 
 ## RESOURCES
 
-[Tidyverse and Anscombe's Quartet](https://www.njtierney.com/post/2020/06/01/tidy-anscombe/)
-
 [Handy cheat-sheets for many different R packages](https://posit.co/resources/cheatsheets/)
 
 [Tutorial 1 - Literate Programming](../T1-Lit-Prog/index.qmd)
 
-[Tutorial 2 - Literate Programming and Anscombe's Quartet](../T2-Anscombe/index.qmd)
 
-[Tutorial 3 - Python](../T3-Python/index.qmd)
