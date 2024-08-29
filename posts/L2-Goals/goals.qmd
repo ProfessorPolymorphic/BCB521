@@ -1,0 +1,60 @@
+---
+title: "LECTURE 2 - GOALS"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    footer: <a href="https://professorpolymorphic.github.io/BCB521/" target="_blank">HOME</a>
+    theme: [default, custom.scss]
+
+author: "Barrie Robison"
+date: "2024-08-29"
+categories: [Lecture, Goals]
+image: "abstractgoals.png"
+draft: true
+---
+
+## GOALS
+
+# Goals in Data-Driven Communication
+
+## 1. Overarching Goals (Long-term Objectives)
+- Career Advancement: e.g., Landing a job, securing a promotion
+- Business Development: e.g., Selling a product, gaining investors
+- Policy Change: e.g., Influencing legislation, changing organizational policies
+- Relationship Building: e.g., Establishing partnerships, improving client relations
+- Reputation Enhancement: e.g., Establishing thought leadership, building credibility
+
+## 2. Communication-Specific Goals (Immediate Objectives)
+- Inform: Present data to increase understanding or awareness
+- Educate: Teach concepts or skills related to the data
+- Persuade: Use data to convince the audience of a particular viewpoint
+- Motivate: Inspire action based on the data presented
+- Decision Support: Provide data to aid in decision-making processes
+- Problem-Solving: Present data to help identify solutions to issues
+- Compliance: Fulfill regulatory or organizational reporting requirements
+
+## 3. Audience-Centric Goals
+- Address Needs: Satisfy the audience's information requirements
+- Answer Questions: Provide data-driven responses to specific queries
+- Challenge Perceptions: Use data to question existing beliefs or assumptions
+- Facilitate Discussion: Present data as a starting point for dialogue
+- Empower: Equip the audience with data for their own use or analysis
+
+## 4. Data-Specific Goals
+- Clarity: Ensure complex data is understood accurately
+- Engagement: Make data interesting and relevant to the audience
+- Memorability: Present data in a way that's easy to remember and recall
+- Action-Oriented: Transform data insights into actionable steps
+- Transparency: Provide clear information about data sources and methods
+
+## 5. Presentation Goals
+- Time Management: Convey key information within the allotted time
+- Visual Appeal: Create aesthetically pleasing data visualizations
+- Interactivity: Engage the audience through participatory data exploration
+- Accessibility: Ensure the data presentation is inclusive and understandable to all audience members
+
+Remember: Align your communication-specific goals with your overarching goals, and always consider how these goals intersect with the characteristics and needs of your audience.
