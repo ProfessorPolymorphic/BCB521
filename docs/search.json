@@ -224,6 +224,48 @@
     "text": "RESOURCES\nHandy cheat-sheets for many different R packages\nTutorial 1 - Literate Programming"
   },
   {
+    "objectID": "posts/A2-VersionControl/index.html",
+    "href": "posts/A2-VersionControl/index.html",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "The basic idea of this assignment is to set up a GitHub repository that will serve as an experimental portfolio, and then create a practice communication element inside the portfolio. Its gonna be fun! Or at least educational…"
+  },
+  {
+    "objectID": "posts/A2-VersionControl/index.html#summary",
+    "href": "posts/A2-VersionControl/index.html#summary",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "The basic idea of this assignment is to set up a GitHub repository that will serve as an experimental portfolio, and then create a practice communication element inside the portfolio. Its gonna be fun! Or at least educational…"
+  },
+  {
+    "objectID": "posts/A2-VersionControl/index.html#assignment",
+    "href": "posts/A2-VersionControl/index.html#assignment",
+    "title": "ASSIGNMENT 2",
+    "section": "ASSIGNMENT",
+    "text": "ASSIGNMENT\nThis assignment has two parts. The first part is technical. We’ll set up a Quarto Blog project as a new repository in your GitHub account. Then you’ll be a Blogger! Prestigious! The second part should be more fun. We are going to create your first Blog post using a practice / dummy / simple quarto document. Ideally this would be your .qmd file from Assigment 1."
+  },
+  {
+    "objectID": "posts/A2-VersionControl/index.html#part-1-technical-sorcery",
+    "href": "posts/A2-VersionControl/index.html#part-1-technical-sorcery",
+    "title": "ASSIGNMENT 2",
+    "section": "PART 1 TECHNICAL SORCERY",
+    "text": "PART 1 TECHNICAL SORCERY\n\n1A - Create your BLOG project.\nHopefully by now you have created / dusted off / logged in to your GitHub account. Go ahead and log in to your account on the web and leave it open in a tab in your browser. There is a really great video about the next few steps (also linked below in RESORUCES) from Posit, but I’m giving you the condensed version here.\n\nFire up RStudio.\nGo to File-&gt;New Project and then select NEW DIRECTORY.\nNow select QUARTO BLOG.\nYou are going to create the project in a new working directory. It is best practice to put this in a sensible directory structure on your local hard drive where your other GitHub repositories also live. Here is what mine looks like:\n\n\nNote: I currently have my GitHub directory in my Documents folder, which appears to sync with some kind of Apple Cloud thingy. I think this is causing some issues that I haven’t fully dealt with. I don’t recommend putting your local directory on any kind of shared or networked drive.\n\nI suggest making the directory name something informative, like BCB521Portfolio, but hey… If you want to call your repository HasturBoxerShorts I won’t stop you.\nMost of you will select Knitr as your Engine, but if you were a Python coder you might select Jupyter.\nCheck Create a git repository. At some point, you might be asked about making the repository private. Uncheck that box and make it public. Otherwise the website functionality of GitHub pages won’t work. The other boxes are optional and we can talk more about them later.\nClick CREATE PROJECT.\n\nNow you’ve got a BLOG template all set up! Ha Ha! Onward to Internet Fame!\n\n\n1B - Make the BLOG about you.\nWe won’t spend a ton of time here, because this will be an ongoing process. You’ll go and watch all those cool videos and tutorials this weekend to figure this out. But lets do a couple things.\n\nMaybe you should modify the about.qmd file so that your name is in there somewhere.\nMaybe you should modify the index.qmd file with a better title in the YAML header.\nMaybe you should navigate to the posts folder, open the Welcome to my blog folder, open index.qmd from that directory, and add a sentence or two."
+  },
+  {
+    "objectID": "posts/A2-VersionControl/index.html#part-2-internet-fame",
+    "href": "posts/A2-VersionControl/index.html#part-2-internet-fame",
+    "title": "ASSIGNMENT 2",
+    "section": "PART 2 INTERNET FAME",
+    "text": "PART 2 INTERNET FAME\n\n2A - Make Assignment 1 a BLOG post.\n\nNavigate to the posts folder, open the post with code folder, and open index.qmd.\nReplace ALL of the content of index.qmd with the most recent version of your .qmd file from ASSIGNMENT 1. Keep the file name index.qmd or rename it to something else. Save that file!\nMove any data files pertaining to Assignment 1 to the post with code folder.\nRender the index.qmd file (or whatever you renamed it) from this folder. Hopefully it worked!\n\n\n\n2B - Render the BLOG as a website.\n\nIMPORTANT Open your _quarto.yml file and add output-dir: docs under project:\n\n\nThe indentations matter here.\n\nSave all the files you’ve modified.\nGo to the BUILD tab in the (probably) top right section of RStudio.\nClick RENDER WEBSITE.\nClick through your new Blog and see how it works!\n\n\n\n2C - Push to GitHub.\nThere are quite a few ways to do this part. I’m going to use GitHub Desktop, but those videos will show you other ways.\n\nGo to GitHub Desktop.\nYou may have to add your repository to GitHub Desktop. On my Mac I use File -&gt; Add Local Repository and then point to the local directory.\nType some text in the summary box.\nClick COMMIT TO MASTER.\nClick PUSH ORIGIN.\nGo to your GitHub in your browser. You should see your new repository! Yay!\n\n\n\n2D - Make it a website with GitHub pages.\n\nIn your browser, click on your repository.\nGo to SETTINGS.\nSelect PAGES.\nSet the SOURCE option to Deploy from a branch.\nSet the BRANCH to master and the directory to docs\nDeploy that stuff and wait. Then visit your site!"
+  },
+  {
+    "objectID": "posts/A2-VersionControl/index.html#resources",
+    "href": "posts/A2-VersionControl/index.html#resources",
+    "title": "ASSIGNMENT 2",
+    "section": "RESOURCES",
+    "text": "RESOURCES\nA YouTube Video from Posit on Building your Data Science Portfolio\nQuarto’s BLOG Documentation\nA YouTube Video from Posit on Building a BLOG with Quarto"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "BCB 521:: Communicating with Data",
