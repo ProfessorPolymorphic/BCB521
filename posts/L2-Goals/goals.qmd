@@ -14,12 +14,10 @@ author: "Barrie Robison"
 date: "2024-08-29"
 categories: [Lecture, Goals]
 image: "abstractgoals.png"
-draft: true
+
 ---
 
-## GOALS
-
-# Goals in Data-Driven Communication
+## Goals in Data-Driven Communication
 
 ## 1. Overarching Goals (Long-term Objectives)
 - Career Advancement: e.g., Landing a job, securing a promotion
@@ -57,4 +55,3 @@ draft: true
 - Interactivity: Engage the audience through participatory data exploration
 - Accessibility: Ensure the data presentation is inclusive and understandable to all audience members
 
-Remember: Align your communication-specific goals with your overarching goals, and always consider how these goals intersect with the characteristics and needs of your audience.
