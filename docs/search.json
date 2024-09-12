@@ -42,6 +42,34 @@
     "text": "library(readxl)\nSchedule &lt;- read_excel(\"Schedule.xlsx\")\n\nknitr::kable(Schedule, caption = '')\n\n\n\n\nDATE\nTOPIC\nACTIVITY\nRESOURCES\n\n\n\n\n2024-08-20\nNO CLASS THIS WEEK\nBarrie moves his son to Syracuse\nWhiskey?\n\n\n2024-08-22\nNO CLASS THIS WEEK\nBarrie moves his son to Syracuse\nEndless patience?\n\n\n2024-08-27\nIntroduction\nIn Class Discussion\nCourse Website\n\n\n2024-08-29\nWork Day (R Studio and Quarto)\nAssignment 1\nTutorial\n\n\n2024-09-03\nYour Data\nAssigment 2\nNA\n\n\n2024-09-05\nWork Day (Data cleaning and exploration)\nNA\nNA\n\n\n2024-09-10\nVersion Control\nNA\nNA\n\n\n2024-09-12\nWork Day (The Abyss of Github)\nNA\nNA\n\n\n2024-09-17\nNA\nNA\nNA\n\n\n2024-09-19\nNA\nNA\nNA\n\n\n2024-09-24\nBARRIE IN ABQ\nNA\nNA\n\n\n2024-09-26\nNA\nNA\nNA\n\n\n2024-10-01\nBARRIE AT UCF\nNA\nNA\n\n\n2024-10-03\nBARRIE AT UCF\nNA\nNA\n\n\n2024-10-08\nNA\nNA\nNA\n\n\n2024-10-10\nNA\nNA\nNA\n\n\n2024-10-15\nNA\nNA\nNA\n\n\n2024-10-17\nNA\nNA\nNA\n\n\n2024-10-22\nNA\nNA\nNA\n\n\n2024-10-24\nNA\nNA\nNA\n\n\n2024-10-29\nNA\nNA\nNA\n\n\n2024-10-31\nNA\nNA\nNA\n\n\n2024-11-05\nNA\nNA\nNA\n\n\n2024-11-07\nNA\nNA\nNA\n\n\n2024-11-12\nNA\nNA\nNA\n\n\n2024-11-14\nNA\nNA\nNA\n\n\n2024-11-19\nNA\nNA\nNA\n\n\n2024-11-21\nNA\nNA\nNA\n\n\n2024-11-26\nFALL RECESS\nNA\nNA\n\n\n2024-11-28\nFALL RECESS\nNA\nNA\n\n\n2024-12-03\nDEAD WEEK\nNA\nNA\n\n\n2024-12-05\nDEAD WEEK\nNA\nNA\n\n\n2024-12-10\nFINAL EXAMS\nNA\nNA\n\n\n2024-12-12\nFINAL EXAMS\nNA\nNA"
   },
   {
+    "objectID": "posts/A3-YourData/index.html",
+    "href": "posts/A3-YourData/index.html",
+    "title": "ASSIGNMENT 3 - Your Data.",
+    "section": "",
+    "text": "A key feature of this course is that students should be using their own data whenever possible. This is critical to forging a learning experience that is customized to each student’s aspirations and the eccentricities of their chosen research domain. This assignment begins the process of helping you identify the data sets with which you want to work, and aligns with the notion of understanding your audience(s) and your communication goal(s)."
+  },
+  {
+    "objectID": "posts/A3-YourData/index.html#summary",
+    "href": "posts/A3-YourData/index.html#summary",
+    "title": "ASSIGNMENT 3 - Your Data.",
+    "section": "",
+    "text": "A key feature of this course is that students should be using their own data whenever possible. This is critical to forging a learning experience that is customized to each student’s aspirations and the eccentricities of their chosen research domain. This assignment begins the process of helping you identify the data sets with which you want to work, and aligns with the notion of understanding your audience(s) and your communication goal(s)."
+  },
+  {
+    "objectID": "posts/A3-YourData/index.html#assignment",
+    "href": "posts/A3-YourData/index.html#assignment",
+    "title": "ASSIGNMENT 3 - Your Data.",
+    "section": "ASSIGNMENT",
+    "text": "ASSIGNMENT\nThe basic structure of this assignment is for you to identify, import, describe, and host a data set. I’ll break down the specifics for each of these actions below.\n\nIdentify a Data Set\nThe main criteria is that the data set has to matter to you in some way. Often, this will mean that it is your data set. It was collected by you and has a central role in your current or past graduate research. Awesome! Another scenario is that the data you want to use comes from your current job. Maybe it isn’t part of a research project, but you are motivated to learn how to work with the data or you are very interested in learning more about it. Also Awesome!\nSome of you might not have your own data. Perhaps you have just started your graduate training. Maybe your job doesn’t yet have data that you need to work with. No Problem!\nIt is perfectly fine to find publicly available data sets online. As long as the data set is interesting to you! You just need to make sure that the data:\n\nAre publicly available.\nAre not restricted by some kind of license or copyright.\nDo not contain private information.\nAre not covered by HIPPA, FERPA, CMMC, or other federal regulations related to data.\n\nIf you need help finding a data set, just let me know.\nSome fun potential categories for data sources include:\n\nSports Analytics from your favorite sport or team.\nPublicly available genomics data bases.\nKeggle.\nThe movie data base.\nClassic data sets from your field.\n\n\n\nImport the Data Set\nThis one is probably straightforward if your data set comes from your own research and lives on your local hard drive already.\n\n\nDescribe the Data Set\nThis is the bulk of the assignment. I want you to use the framework described in Dr. Munzner’s textbook to understand your data set and describe it to someone who is unfamiliar with your work. The basis of this approach is described in this figure from the textbook I use in BCB 520. It summarizes the kinds of data types, data set types, and attribute types you might have in your data:\n\n\n\nHost your Data Set\nUltimately, we are moving toward each of you hosting your assignments within an online repository that can serve as your data science portfolio. For this course, we are going to assume this is GitHub. Create a new blog post for this assignment\n\n\nConsider a Communication Scenario\nLet’s start with a 5 minute presentation to the class. Due… I don’t know… One week from today (Tuesday September 17, 2024). I want a five minute presentation that uses your data. At the beginning of the presentation, I want you to clearly specify:\n\nThe characteristics of your audience that you consider important, and for which you must prepare.\nYour goals for the presentation. I’d like one overarching (or longer term), one communication goal, and one more goal that you are free to specify. Have a look at the lists from the previous lecture for inspiration."
+  },
+  {
+    "objectID": "posts/A3-YourData/index.html#resources",
+    "href": "posts/A3-YourData/index.html#resources",
+    "title": "ASSIGNMENT 3 - Your Data.",
+    "section": "RESOURCES",
+    "text": "RESOURCES\nA YouTube Video from Posit on Building your Data Science Portfolio\nA fun Spotify example from TidyTuesday by Kaylin Pavlik."
+  },
+  {
     "objectID": "posts/T1-Lit-Prog/index.html",
     "href": "posts/T1-Lit-Prog/index.html",
     "title": "TUTORIAL 1 - Literate Programming",
