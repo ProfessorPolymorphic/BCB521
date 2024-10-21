@@ -1,0 +1,35 @@
+---
+title: "ASSIGNMENT 4 - Communicating with Code."
+author: "Barrie Robison"
+date: "2024-10-20"
+categories: [Assignment, Quarto, Data Sets]
+image: "MythosData1.png"
+code-fold: true
+
+
+---
+
+## SUMMARY
+
+While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common.  In this assignment, we'll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities.
+
+## ASSIGNMENT
+
+Use your most recent data figure(s) and create a new blog post in your portfolio.  
+
+1. Annotate your post using Markdown syntax.  Use headers, lists, and other markdown tools to create a document that helps the audience understand the logic of your analysis and any decisions you made.
+
+2. Within each code chunk, use comments to describe what each major piece of your code is intended to do.
+
+## EVALUATION
+
+In class, we will randomly trade code with a partner (including me).  Our goal is to download, run, and explain the code from your partner.  Fun!
+
+
+## RESOURCES
+
+[Quarto Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html){target="_blank"}
+
+
+[For extra flair, try Code Annotations!](https://quarto.org/docs/authoring/code-annotation.html){target="_blank"}
+
