@@ -5,13 +5,12 @@ date: "2024-10-20"
 categories: [Assignment, Quarto, Data Sets]
 image: "MythosData1.png"
 code-fold: true
-
-
 ---
 
 ## SUMMARY
 
 While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common.  In this assignment, we'll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities.
+
 
 ## ASSIGNMENT
 
