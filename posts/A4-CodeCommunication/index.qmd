@@ -3,7 +3,7 @@ title: "ASSIGNMENT 4 - Communicating with Code."
 author: "Barrie Robison"
 date: "2024-10-20"
 categories: [Assignment, Quarto, Data Sets]
-image: "MythosData1.png"
+image: "Cthulhucode.png"
 code-fold: true
 ---
 
