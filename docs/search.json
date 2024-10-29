@@ -88,14 +88,14 @@
     "href": "posts/A4-CodeCommunication/index.html",
     "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "",
-    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities."
+    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
   },
   {
     "objectID": "posts/A4-CodeCommunication/index.html#summary",
     "href": "posts/A4-CodeCommunication/index.html#summary",
     "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "",
-    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities."
+    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
   },
   {
     "objectID": "posts/A4-CodeCommunication/index.html#assignment",
@@ -186,21 +186,21 @@
     "href": "posts/L2-Goals/goals.html#presentation-goals",
     "title": "LECTURE 2 - GOALS",
     "section": "5. Presentation Goals",
-    "text": "5. Presentation Goals\n\nTime Management: Convey key information within the allotted time\nVisual Appeal: Create aesthetically pleasing data visualizations\nInteractivity: Engage the audience through participatory data exploration\nAccessibility: Ensure the data presentation is inclusive and understandable to all audience members\n\n\n\n\nHOME"
+    "text": "5. Presentation Goals\n\nTime Management: Convey key information within the allotted time\nVisual Appeal: Create aesthetically pleasing data visualizations\nInteractivity: Engage the audience through participatory data exploration\nAccessibility: Ensure the data presentation is inclusive and understandable to all audience members"
   },
   {
     "objectID": "posts/L1-Intro/index.html#who-am-i",
     "href": "posts/L1-Intro/index.html#who-am-i",
     "title": "LECTURE 1 - INTRO",
-    "section": "WHO AM I?",
-    "text": "WHO AM I?\nBarrie Robison\nDepartment of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
+    "section": "",
+    "text": "Department of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
   },
   {
     "objectID": "posts/L1-Intro/index.html#who-are-you",
     "href": "posts/L1-Intro/index.html#who-are-you",
     "title": "LECTURE 1 - INTRO",
     "section": "WHO ARE YOU?",
-    "text": "WHO ARE YOU?\n“…The course is designed to be”discipline agnostic” - each student is encouraged to use their own data, or public data sets that they deem important / interesting. …”\nBriefly:\n\nYour name\nYour discipline\nYour degree progress\nYour technical proficiency"
+    "text": "WHO ARE YOU?\n“…The course is designed to be”discipline agnostic” - each student is encouraged to use their own data, or public data sets that they deem important / interesting. …”\n\nBriefly:\n\nYour name\nYour discipline\nYour degree progress\nYour technical proficiency"
   },
   {
     "objectID": "posts/L1-Intro/index.html#yva",
@@ -284,7 +284,7 @@
     "href": "posts/L1-Intro/index.html#summary",
     "title": "LECTURE 1 - INTRO",
     "section": "SUMMARY",
-    "text": "SUMMARY\nWho is the AUDIENCE? What is the GOAL?\n\nAUDIENCEGOALS\n\n\n\nReceptivity: Are they hostile to your message, or predisposed to it?\nInfluence: Do they have the power to help you achieve your goal?\nEngagement: Are you competing with other factors for their attention?\nExpertise: How much prior knowledge do they have related to your content?\nNeeds: What type of affordances must you provide? Consider the required access to technology for your communication.\nExpectations: Are there disciplinary or cultural norms or expectations (e.g. formality, format, content)?\nDiversity: How big is the audience, and how much variation in the above characteristics may exist among individuals?\nGoals: Your audience has goals too. How do their goals align with yours?\n\n\n\n\nOverarching goals (Long-term Objectives): Get the job, sell the product, get elected, confirm or refute your hypothesis.\nCommunication-Specific goals (Immediate Objectives): Inform the voters, educate the students, persuade the legislator, motivate the staff, solve a problem.\nMultiple Goals: Most communications will have multiple goals across these categories. The challenge is often in balancing these goals effectively.\nAlignment: Ensure that your communication-specific goals align with your overarching goals and are appropriate for your audience characteristics.\nMeasurability: Where possible, try to make goals specific and measurable. This can help in evaluating the success of your communication.\nFlexibility: Be prepared to adjust your goals based on feedback or changing circumstances.\n\n\n\n\n\n\n\nHOME"
+    "text": "SUMMARY\nWho is the AUDIENCE? What is the GOAL?\n\nAUDIENCEGOALS\n\n\n\nReceptivity: Are they hostile to your message, or predisposed to it?\nInfluence: Do they have the power to help you achieve your goal?\nEngagement: Are you competing with other factors for their attention?\nExpertise: How much prior knowledge do they have related to your content?\nNeeds: What type of affordances must you provide? Consider the required access to technology for your communication.\nExpectations: Are there disciplinary or cultural norms or expectations (e.g. formality, format, content)?\nDiversity: How big is the audience, and how much variation in the above characteristics may exist among individuals?\nGoals: Your audience has goals too. How do their goals align with yours?\n\n\n\n\nOverarching goals (Long-term Objectives): Get the job, sell the product, get elected, confirm or refute your hypothesis.\nCommunication-Specific goals (Immediate Objectives): Inform the voters, educate the students, persuade the legislator, motivate the staff, solve a problem.\nMultiple Goals: Most communications will have multiple goals across these categories. The challenge is often in balancing these goals effectively.\nAlignment: Ensure that your communication-specific goals align with your overarching goals and are appropriate for your audience characteristics.\nMeasurability: Where possible, try to make goals specific and measurable. This can help in evaluating the success of your communication.\nFlexibility: Be prepared to adjust your goals based on feedback or changing circumstances."
   },
   {
     "objectID": "posts/A1-Lit-Prog/index.html",
@@ -390,5 +390,19 @@
     "title": "BCB 521:: Communicating with Data",
     "section": "",
     "text": "The Functional Art\nGGSIDE! A companion to ggplot for making side plots! COOL!\nAwesome Quarto: A potentially interesting repository of Quarto documents, talks, tools, examples, etc.\nThe MockUp Blog - TABLES! This blog post explores the R packages gt and gtextras which will help us up our table game!\nRiffomonas Project: Pat Schloss is a Professor at the University of Michigan. The Riffomonas Project is his Youtube channel, which has HUNDREDS of easy to follow and amazingly useful instructional videos on R, ggplot, version control, and literate programming.\nDr. Tamara Munzner’s Website: It isn’t fancy, but Dr. Munzner’s website has tons of resources from her textbook and the many data visualization courses she has offered. This includes recorded lectures that align directly with the chapters of the text, much like what we are using.\nCheat Sheets: So many visual guides for many R packages, including the tidyverse, ggplot, dplyr, etc.\nLearning Vis Tools: Teaching Data Visualization Tutorials An interesting paper for discussion as we forge the structure for this class."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "",
+    "text": "Test!"
+  },
+  {
+    "objectID": "posts/L1-Intro/index.html",
+    "href": "posts/L1-Intro/index.html",
+    "title": "LECTURE 1 - INTRO",
+    "section": "",
+    "text": "Department of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
   }
 ]
