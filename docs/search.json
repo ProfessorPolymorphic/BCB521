@@ -84,39 +84,81 @@
     "text": "Learning new tools is hard. Plowing though the tomes of the Data Science Mythos is hard. Perhaps this tutorial will guide you through the mind shattering truths of… LITERATE PROGRAMMING."
   },
   {
-    "objectID": "posts/A4-CodeCommunication/index.html",
-    "href": "posts/A4-CodeCommunication/index.html",
-    "title": "ASSIGNMENT 4 - Communicating with Code.",
+    "objectID": "posts/A1-Lit-Prog/index.html",
+    "href": "posts/A1-Lit-Prog/index.html",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
     "section": "",
-    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
+    "text": "The idea of Literate Programming is that source code that is executed as part of the program’s purpose is interspersed with documentation that describes the program’s logic. The concept of literate programming was first articulated by David Knuth in 1984. You know… back when music was good? Modern Data Science leans pretty heavily on literate programming, and to be honest, there aren’t very many good arguments as to why you WOULDN’T want to implement this approach in your own work. Bearing this in mind, we will adopt this framework for most of the activities, exercises, and assignments in this course. All of us will benefit by practicing these skills."
   },
   {
-    "objectID": "posts/A4-CodeCommunication/index.html#summary",
-    "href": "posts/A4-CodeCommunication/index.html#summary",
-    "title": "ASSIGNMENT 4 - Communicating with Code.",
+    "objectID": "posts/A1-Lit-Prog/index.html#summary",
+    "href": "posts/A1-Lit-Prog/index.html#summary",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
     "section": "",
-    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
+    "text": "The idea of Literate Programming is that source code that is executed as part of the program’s purpose is interspersed with documentation that describes the program’s logic. The concept of literate programming was first articulated by David Knuth in 1984. You know… back when music was good? Modern Data Science leans pretty heavily on literate programming, and to be honest, there aren’t very many good arguments as to why you WOULDN’T want to implement this approach in your own work. Bearing this in mind, we will adopt this framework for most of the activities, exercises, and assignments in this course. All of us will benefit by practicing these skills."
   },
   {
-    "objectID": "posts/A4-CodeCommunication/index.html#assignment",
-    "href": "posts/A4-CodeCommunication/index.html#assignment",
-    "title": "ASSIGNMENT 4 - Communicating with Code.",
+    "objectID": "posts/A1-Lit-Prog/index.html#literate-programming-publishing-systems",
+    "href": "posts/A1-Lit-Prog/index.html#literate-programming-publishing-systems",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "section": "LITERATE PROGRAMMING PUBLISHING SYSTEMS",
+    "text": "LITERATE PROGRAMMING PUBLISHING SYSTEMS\nI’m trying to keep this course as technology agnostic as I can. The idea is that you should be practicing and building competencies in the languages and algorithms that are most useful to you. Who am I to tell you to use R instead of Python? If you have skills in a particular language I encourage you to keep using that during this course. That being said, I am going to work the examples using R and R Studio, and I will (mostly) use Quarto as the literate programming framework.\nIf all of this is new to you, no problem. Just follow along in R and Quarto and start your skill building journey with those languages.\nIf you are a Python person, great! Quarto can accommodate that language as well. If you have another preference for literate programming, such as sticking with R Markdown until the Quarto bugs are fixed, that is great. Find the framework and tools that work for you, and practice, practice, practice!\n\nQuarto\nAn open source publishing system that allows you to create websites, documents, blogs, books, publications, presentations, and more while using R, Python, Julia, or Observable. Quarto is intended to be the more functional successor of R Markdown. I intend to use Quarto for most of my work in this course.\n\n\nR Markdown\nAnother publishing system for creating all the things … websites, slides, manuscripts, dashboards, etc. While most people (including me!) instinctively think of R and Python within R Markdown, the list of supported language engines is pretty extensive.\n\nnames(knitr::knit_engines$get())\n\n [1] \"awk\"       \"bash\"      \"coffee\"    \"gawk\"      \"groovy\"    \"haskell\"  \n [7] \"lein\"      \"mysql\"     \"node\"      \"octave\"    \"perl\"      \"php\"      \n[13] \"psql\"      \"Rscript\"   \"ruby\"      \"sas\"       \"scala\"     \"sed\"      \n[19] \"sh\"        \"stata\"     \"zsh\"       \"asis\"      \"asy\"       \"block\"    \n[25] \"block2\"    \"bslib\"     \"c\"         \"cat\"       \"cc\"        \"comment\"  \n[31] \"css\"       \"ditaa\"     \"dot\"       \"embed\"     \"eviews\"    \"exec\"     \n[37] \"fortran\"   \"fortran95\" \"go\"        \"highlight\" \"js\"        \"julia\"    \n[43] \"python\"    \"R\"         \"Rcpp\"      \"sass\"      \"scss\"      \"sql\"      \n[49] \"stan\"      \"targets\"   \"tikz\"      \"verbatim\"  \"ojs\"       \"mermaid\""
+  },
+  {
+    "objectID": "posts/A1-Lit-Prog/index.html#languages-and-toolsets",
+    "href": "posts/A1-Lit-Prog/index.html#languages-and-toolsets",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "section": "LANGUAGES AND TOOLSETS",
+    "text": "LANGUAGES AND TOOLSETS\nThere are quite a few, but the five that seemed to keep coming up as I prepped this course are:\n\nR\nA very powerful open source framework for statistical computing and graphics. R has a lot of base functionality, and its capabilities are increased by 100 fold with packages created by R users. Packages are the core units of R code. I’m going to use R for the vast majority of demonstrations in this course.\n\n\nPython\nPython is an open source general purpose programming language. It wasn’t developed just for statistical computing or data science, and people use this language for tons of different applications. There is no denying it has become a very powerful language for data science and data visualization.\n\n\nTableau\nTableau is proprietary software that is very powerful for creating beautiful and functional data visualizations. It can integrate with all sorts of data sources and is used a lot for analytics, especially in the business world. The downsides (that occur to me at least) are that it costs money, it is not open source, and is more of a one-trick-pony than the programming languages on this list. It may be a great tool in your communication tool kit, but you will need to use additional things for communication tasks that go beyond “showing” into speaking and writing.\n\n\nJavascript\nJavascript has been around for about 25 years, and is (I think) the world’s most popular programming language. Along with HTML and CSS, Javascript drives pretty much the entire internet. I mention Javascript here because it has the D3 library, which can create super cool interactive data visualizaitons. In my experience, the learning curve with Javascript and D3 was pretty steep. I bought a book about it once, but just haven’t been able to allocate the amount of time necessary to really start using it. Check out the gallery of examples. Amazing!\n\n\nObservable / D3\nObservable is a set of extensions to Javascript that features something called reactive runtime. This means that the code blocks are executed and compiled as they are written, and changes are implemented instantaneously. Observable is pretty great for data exploration, and is well supported by Quarto. In addition, you can use the Observable JS libraries in Quarto to access D3. We’ll use some of these tools in this course, especially when we start considering interactivity."
+  },
+  {
+    "objectID": "posts/A1-Lit-Prog/index.html#assignment",
+    "href": "posts/A1-Lit-Prog/index.html#assignment",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
     "section": "ASSIGNMENT",
-    "text": "ASSIGNMENT\nUse your most recent data figure(s) and create a new blog post in your portfolio.\n\nAnnotate your post using Markdown syntax. Use headers, lists, and other markdown tools to create a document that helps the audience understand the logic of your analysis and any decisions you made.\nWithin each code chunk, use comments to describe what each major piece of your code is intended to do."
+    "text": "ASSIGNMENT\nAfter that long introduction, I suppose you are wondering what I want you to actually DO today.\nWell, I want you to set up your publishing system and preferred language on your computer. Then I want you to create a quarto project and render an html page.\nNow, you might be asking…\n“How am I supposed to do that? You haven’t taught me how to do anything yet!”\nHere is the dirty little secret of modern education.\nThe Internet Exists.\nWhile I could use up an entire 50 minute lecture telling you how to:\n\nDownload and install R, R-Studio, and Quarto (included by default with R-Studio).\nCreate a Quarto document that will publish in the .html format\n\nI’m not going to do that.\nInstead, I want you to use the resources I point towards, or other resources that make more sense to you, to figure out how to do those things."
   },
   {
-    "objectID": "posts/A4-CodeCommunication/index.html#evaluation",
-    "href": "posts/A4-CodeCommunication/index.html#evaluation",
-    "title": "ASSIGNMENT 4 - Communicating with Code.",
-    "section": "EVALUATION",
-    "text": "EVALUATION\nIn class, we will randomly trade code with a partner (including me). Our goal is to download, run, and explain the code from your partner. Fun!"
-  },
-  {
-    "objectID": "posts/A4-CodeCommunication/index.html#resources",
-    "href": "posts/A4-CodeCommunication/index.html#resources",
-    "title": "ASSIGNMENT 4 - Communicating with Code.",
+    "objectID": "posts/A1-Lit-Prog/index.html#resources",
+    "href": "posts/A1-Lit-Prog/index.html#resources",
+    "title": "ASSIGNMENT 1 - Fun with literate programming.",
     "section": "RESOURCES",
-    "text": "RESOURCES\nQuarto Markdown Basics\nFor extra flair, try Code Annotations!"
+    "text": "RESOURCES\nHandy cheat-sheets for many different R packages\nTutorial 1 - Literate Programming"
+  },
+  {
+    "objectID": "posts/T2_CodeComm/CodeComm.html",
+    "href": "posts/T2_CodeComm/CodeComm.html",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "",
+    "text": "The purpose of this post is to provide some example data visualizations that can be presented to the player of our new evolutionary video game, Shep.Herd. The game features a generational evolutionary model, and between each generation the player can earn bonus resources if they correctly answer a data literacy question.\nThe visualizations are separated by milestones related to game progress. Some visualizations are not informative until the player has progressed through more than 5 generations."
+  },
+  {
+    "objectID": "posts/T2_CodeComm/CodeComm.html#assessing-data-science-literacy-in-shep.herd",
+    "href": "posts/T2_CodeComm/CodeComm.html#assessing-data-science-literacy-in-shep.herd",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "",
+    "text": "The purpose of this post is to provide some example data visualizations that can be presented to the player of our new evolutionary video game, Shep.Herd. The game features a generational evolutionary model, and between each generation the player can earn bonus resources if they correctly answer a data literacy question.\nThe visualizations are separated by milestones related to game progress. Some visualizations are not informative until the player has progressed through more than 5 generations."
+  },
+  {
+    "objectID": "posts/T2_CodeComm/CodeComm.html#reading-in-the-data",
+    "href": "posts/T2_CodeComm/CodeComm.html#reading-in-the-data",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "Reading in the data",
+    "text": "Reading in the data\nFor the purposes of this example, I’m using a data file called newdata4.csv from a single run of the game.\n\n\nCode\ndf = pd.read_csv('newdata4.csv')\n\ndf_wave_0 = df[df['Wave Number'] == 0] # Some visualizations will focus only on the first generation (wave 0)\n\ndf_wave_4 = df[df['Wave Number'] == 3] # Some visualizations will focus only on generations between 0 and 4 so we will use generation 3 as an example.\n\n\nEach dataframe features 27 columns, and 300 observations per generation (one observation per enemy in the population). The columns define a variety of traits and genes that are potenially under selection by the player’s defenses. There are also metadata related to the enemy ID, its parents, and the number of offspring it contributed to the next generation (that the player is about to face)."
+  },
+  {
+    "objectID": "posts/T2_CodeComm/CodeComm.html#after-generation-0",
+    "href": "posts/T2_CodeComm/CodeComm.html#after-generation-0",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "After Generation 0",
+    "text": "After Generation 0\nAfter defeating the first generation, the player could be shown graphs summarizing a limited set of traits. These could include Speed, Tower Atraction, Slime Attraction, and Turn Rate. The two types of visualizations at this stage could be Histograms or Scatterplots. The tabsets below show examples of these plots, and each is accompanied by some questions that could be used in the game to assess player data literacy.\n\nTrait HistogramsScatterplots\n\n\n\n\nCode\n# Define bin edges\nbin_edges = np.arange(0, 12.5, 0.5)\n\n# Create a histogram using plotly with custom bins\n# Note that my choice of the Speed Trait here was arbitrary.  I could have used other traits from the list.\n\nfig = go.Figure(data=[go.Histogram(\n    x=df_wave_0['Speed Trait'],\n    xbins=dict(\n        start=0,\n        end=12,\n        size=0.5\n    ),\n    autobinx=False\n)])\n\n# Update the layout for better readability\n\nfig.update_layout(\n    title='Histogram of Speed (Wave Number = 0)',\n    xaxis_title='Speed',\n    yaxis_title='Number of Slimes',\n    bargap=0.1,\n    xaxis=dict(\n        range=[0, 12],\n        tickmode='array',\n        tickvals=list(range(0, 13)),\n        ticktext=[f\"{i:.1f}\" for i in range(0, 13)]\n    )\n)\n\n# Save the plot as an HTML file\nfig.write_html('speed_histogram.html')\n\n# This will allow us to display the plot in Quarto\nfig.show()\n\n\n                                                \n\n\n\nWhat is the correct name for this type of graph?\n\nA. Scatterplot\nB. Histogram\nC. Regression Line\nD. Time Series\n\n\n\n\nClick to see the answer\n\nAnswer: B. Histogram\nExplanation: A Histogram is a special type of bar chart that shows the frequency distribution of another variable.\n\n\nWhat is your best estimate of the range of the data for Speed?\n\nA. 1.0 to 5.5\nB. 1.0 to 5.0\nC. 0.0 to 12.0\nD. 0.0 to 109.0\n\n\n\n\nClick to see the answer\n\nAnswer: A. 1.0 to 5.5\nExplanation: Values of Speed are shown on the x axis, and the range is defined as the lowest and highest value of the variable. The lowest value of Speed is in the 1.0 bin, and the highest value is in the 5.5 bin.\n\n\nWhat bin contains the Mode of the distribution for Speed?\n\nA. 1.0 to 1.5\nB. 109 Slimes\nC. 2.0 to 2.5\nD. 6.0 to 6.5\n\n\n\n\nClick to see the answer\n\nAnswer: C. 2.0 to 2.5\nExplanation: The Mode of a distribution is its most frequently observed value. In this case, the 2.0 to 2.5 bin contains the most slimes.\n\n\n\n\n\nCode\n# Create a scatterplot using plotly.  Again, the choice of traits here is arbitrary.\nfig = px.scatter(df_wave_0, \n                 x='Speed Trait', \n                 y='Tower Attraction Trait',\n                 title='Scatterplot of Speed Trait vs Tower Attraction (Wave Number = 0)')\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Speed Trait',\n    yaxis_title='Tower Attraction Trait',\n    xaxis=dict(range=[0, 6]),  # Adjusting based on the histogram range\n)\n\n# Save the plot as an HTML file\nfig.write_html('speed_tower_scatterplot.html')\n\n# Display the plot\nfig.show()\n\n# Print some information about the filtered dataset\nprint(f\"Number of observations with Wave Number 0: {len(df_wave_0)}\")\nprint(f\"Correlation between Speed Trait and Tower Attraction Trait:\")\nprint(df_wave_0[['Speed Trait', 'Tower Attraction Trait']].corr())\n\n\n                                                \n\n\nNumber of observations with Wave Number 0: 300\nCorrelation between Speed Trait and Tower Attraction Trait:\n                        Speed Trait  Tower Attraction Trait\nSpeed Trait                1.000000                0.024498\nTower Attraction Trait     0.024498                1.000000\n\n\n\nWhat type of relationship appears to exist between Speed Trait and Tower Attraction Trait?\n\nA. Strong positive correlation\nB. Strong negative correlation\nC. Weak positive correlation\nD. No clear correlation\n\n\nClick to see the answer\n\nAnswer: D. No clear correlation Explanation: The scatterplot shows no clear pattern or trend between Speed Trait and Tower Attraction Trait, indicating no clear correlation between these variables.\n\n\nWhat is the approximate range of values for the Tower Attraction Trait?\n\nA. 0 to 6\nB. 0 to 12\nC. -6 to 6\nD. -12 to 12\n\n\nClick to see the answer\n\nAnswer: C. -6 to 6 Explanation: The y-axis of the scatterplot, which represents the Tower Attraction Trait, appears to range from approximately -6 to 6.\n\n\nOn this graph, what does each individual point (circle) represent?\n\nA. The maximum value of [Trait 1] and [Trait 2] from all previous Generations of slimes.\nB. The average values of the Traits for each slime from Generation X.\nC. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\nD. The probability that each Slime will reproduce this generation.\n\n\nClick to see the answer\n\nAnswer: C. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X. Explanation: This is a scatter plot of trait values from the previous generation. A scatterplot plots exact values for two quantitative variables (Traits) on two orthogonal axes."
+  },
+  {
+    "objectID": "posts/T2_CodeComm/CodeComm.html#after-generation-3",
+    "href": "posts/T2_CodeComm/CodeComm.html#after-generation-3",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "After Generation 3",
+    "text": "After Generation 3\nAfter playing the game for a few generations, additional visualizations are possible. In particular, the player will notice the emergence of different enemy types (all enemies start as basic in gen 0). The enemy types are Basic, Blaster, Ice, Fire, Laser, and Acid. The type is specified in the Main Type column.\n\nType chartsFitness Charts\n\n\nHere we introduce visualizations related to discrete data (Type) and count data (frequency).\n\n\nCode\n# Define the custom color palette.  I hated the defaults.\ncolor_palette = {\n    'Basic': '#D3D3D3',  # Light grey\n    'Blaster': '#8B0000',  # Dark reddish grey\n    'Ice': '#1E90FF',  # Blue\n    'Fire': '#FFA500',  # Orange\n    'Laser': '#800080',  # Purple\n    'Acid': '#00FF00'  # Green\n}\n\n# Count the frequency of each Main Type\nmain_type_counts = df_wave_4['Main Type'].value_counts().reset_index()\nmain_type_counts.columns = ['Main Type', 'Count']\n\n# Create a column chart using plotly with custom colors\nfig = px.bar(main_type_counts, x='Main Type', y='Count',\n             title='Distribution of Main Types (Wave Number = 4)',\n             color='Main Type',\n             color_discrete_map=color_palette)\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Main Type',\n    yaxis_title='Number of Slimes',\n    xaxis_tickangle=-45\n)\n\n# Save the plot as an HTML file\nfig.write_html('main_type_distribution_colored.html')\n\n# Display the plot\nfig.show()\n\n\n                                                \n\n\nWe should totally do a bargraph race at the end of the game! Plus other animated graphs!\n\nWhat is the correct name for this type of graph?\n\nA. Scatterplot\nB. Bar Chart\nC. Regression Line\nD. Time Series\n\n\n\n\nClick to see the answer\n\nAnswer: B. Bar Chart\nExplanation: A Bar Chart is used to represent a quantitative variable (the height of the bar) for a set of discrete groups (arranged on the x axis).\n\n\nWhat is your best estimate of the number of Blaster type slimes?\n\nA. 11\nB. 1\nC. 0 to 300\nD. 46\n\n\n\n\nClick to see the answer\n\nAnswer: A. 11\nExplanation: The number of slimes for each type is represented by the height of each bar. Try hovering over the Blaster type bar to see its corresponding value for the y axis.\n\n\nWhat type of slime is the least frequent in the population?\n\nA. Blaster\nB. Basic\nC. Acid\nD. Fire\n\n\n\n\nClick to see the answer\n\nAnswer: D. Fire\nExplanation: The least frequent slime type is the represented by the bar with the lowest value. In this case, there are only XXX fire slimes, a number lower than all the other groups.\n\n\n\nNow that a few generations have passed, we can introduce the concept of fitness. In this case, the enemies are being evaluated by how close they are getting to the space sheep. We can use a scatterplot to show the player the relationship between fitness and the number of offspring produced by each enemy.\n\n\nCode\n# Create a scatterplot using plotly\nfig = px.scatter(df_wave_4, \n                 x='Sheep Distance Fitness', \n                 y='Offspring Count',\n                 title='Scatterplot of Fitness Trait vs number of Offspring (Wave Number = 4)')\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Sheep Fitness',\n    yaxis_title='Offspring'\n)\n\n# Save the plot as an HTML file\nfig.write_html('fit_babies_scatterplot.html')\n\n# Display the plot\nfig.show()\n\n\n                                                \n\n\n\nWhat type of relationship appears to exist between Fitness trait and number of Offspring?\n\nA. Strong positive correlation\nB. Strong negative correlation\nC. Weak positive correlation\nD. No clear correlation\n\n\nClick to see the answer\n\nAnswer: A. Strong positive correlation\n\n\nExplanation: The scatterplot shows a strong positive correlation between Fitness and offspring.\n\n\nWhat is the approximate range of values for the number of offspring?\n\nA. 0 to 6\nB. 0 to 12\nC. -6 to 6\nD. -12 to 12\n\n\nClick to see the answer\n\nAnswer: B. 0 to 12\n\n\nExplanation: The y-axis of the scatterplot represents the number of offspring. The lowest point value is at zero and the highest is 12.\n\n\nOn this graph, what does each individual point (circle) represent?\n\nA. The maximum value of [Trait 1] and [Trait 2] from all previous Generations of slimes.\nB. The average values of the Traits for each slime from Generation X.\nC. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\nD. The probability that each Slime will reproduce this generation.\n\n\nClick to see the answer\n\nAnswer: C. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\n\n\nExplanation: This is a scatter plot of trait values from the previous generation. A scatterplot plots exact values for two quantitative variables (Traits) on two orthogonal axes."
   },
   {
     "objectID": "posts/Certificate/index.html",
@@ -145,6 +187,62 @@
     "title": "CERTIFICATE",
     "section": "GENERAL UNIVERSITY REQUIREMENTS",
     "text": "GENERAL UNIVERSITY REQUIREMENTS\nIn addition to the requirements specified in this document, the certificate would be subject to all UI Policies regarding Graduate Certificates."
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#writing-about-data",
+    "href": "posts/L3-FigureCaptions/Captions.html#writing-about-data",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "Writing About Data",
+    "text": "Writing About Data\nA figure is worth 1000 words…. or some crap… I don’t know…"
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#remember-our-theme",
+    "href": "posts/L3-FigureCaptions/Captions.html#remember-our-theme",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "REMEMBER OUR THEME!",
+    "text": "REMEMBER OUR THEME!\nWho is the Audience? What is the goal?\nAny general advice can be invalidated by your specific requirements. For example, the Associate Editor of the Journal Science won’t care what you learned in this class. They have guidelines and you must follow them."
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#self-contained",
+    "href": "posts/L3-FigureCaptions/Captions.html#self-contained",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "SELF CONTAINED",
+    "text": "SELF CONTAINED\nThe caption and the figure should create a stand alone entity that can be understood without reference to the main text of the document. Components may include:\n\nDeclarative Title.\nMethods.\nStatistical Information."
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#declarative-title",
+    "href": "posts/L3-FigureCaptions/Captions.html#declarative-title",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "DECLARATIVE TITLE",
+    "text": "DECLARATIVE TITLE\n… or not?\nA Declarative Title summarizes your result or main finding. This may or may not be appropriate. Is the title clarifying the communication or biasing the reader?"
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#methods-and-statistics",
+    "href": "posts/L3-FigureCaptions/Captions.html#methods-and-statistics",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "METHODS AND STATISTICS",
+    "text": "METHODS AND STATISTICS"
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#caption-vs-legend",
+    "href": "posts/L3-FigureCaptions/Captions.html#caption-vs-legend",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "CAPTION vs LEGEND",
+    "text": "CAPTION vs LEGEND"
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#scope",
+    "href": "posts/L3-FigureCaptions/Captions.html#scope",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "SCOPE",
+    "text": "SCOPE\n1 Figure for 1 Question."
+  },
+  {
+    "objectID": "posts/L3-FigureCaptions/Captions.html#now-you-try",
+    "href": "posts/L3-FigureCaptions/Captions.html#now-you-try",
+    "title": "LECTURE 3 - CAPTIONS",
+    "section": "NOW YOU TRY!",
+    "text": "NOW YOU TRY!\nGrab one of your figures from your previous assignments. Write a comprehensive figure caption.\n\n\n\nHOME"
   },
   {
     "objectID": "posts/L2-Goals/goals.html#goals-in-data-driven-communication",
@@ -186,21 +284,21 @@
     "href": "posts/L2-Goals/goals.html#presentation-goals",
     "title": "LECTURE 2 - GOALS",
     "section": "5. Presentation Goals",
-    "text": "5. Presentation Goals\n\nTime Management: Convey key information within the allotted time\nVisual Appeal: Create aesthetically pleasing data visualizations\nInteractivity: Engage the audience through participatory data exploration\nAccessibility: Ensure the data presentation is inclusive and understandable to all audience members"
+    "text": "5. Presentation Goals\n\nTime Management: Convey key information within the allotted time\nVisual Appeal: Create aesthetically pleasing data visualizations\nInteractivity: Engage the audience through participatory data exploration\nAccessibility: Ensure the data presentation is inclusive and understandable to all audience members\n\n\n\n\nHOME"
   },
   {
     "objectID": "posts/L1-Intro/index.html#who-am-i",
     "href": "posts/L1-Intro/index.html#who-am-i",
     "title": "LECTURE 1 - INTRO",
-    "section": "",
-    "text": "Department of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
+    "section": "WHO AM I?",
+    "text": "WHO AM I?\nBarrie Robison\nDepartment of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
   },
   {
     "objectID": "posts/L1-Intro/index.html#who-are-you",
     "href": "posts/L1-Intro/index.html#who-are-you",
     "title": "LECTURE 1 - INTRO",
     "section": "WHO ARE YOU?",
-    "text": "WHO ARE YOU?\n“…The course is designed to be”discipline agnostic” - each student is encouraged to use their own data, or public data sets that they deem important / interesting. …”\n\nBriefly:\n\nYour name\nYour discipline\nYour degree progress\nYour technical proficiency"
+    "text": "WHO ARE YOU?\n“…The course is designed to be”discipline agnostic” - each student is encouraged to use their own data, or public data sets that they deem important / interesting. …”\nBriefly:\n\nYour name\nYour discipline\nYour degree progress\nYour technical proficiency"
   },
   {
     "objectID": "posts/L1-Intro/index.html#yva",
@@ -284,49 +382,49 @@
     "href": "posts/L1-Intro/index.html#summary",
     "title": "LECTURE 1 - INTRO",
     "section": "SUMMARY",
-    "text": "SUMMARY\nWho is the AUDIENCE? What is the GOAL?\n\nAUDIENCEGOALS\n\n\n\nReceptivity: Are they hostile to your message, or predisposed to it?\nInfluence: Do they have the power to help you achieve your goal?\nEngagement: Are you competing with other factors for their attention?\nExpertise: How much prior knowledge do they have related to your content?\nNeeds: What type of affordances must you provide? Consider the required access to technology for your communication.\nExpectations: Are there disciplinary or cultural norms or expectations (e.g. formality, format, content)?\nDiversity: How big is the audience, and how much variation in the above characteristics may exist among individuals?\nGoals: Your audience has goals too. How do their goals align with yours?\n\n\n\n\nOverarching goals (Long-term Objectives): Get the job, sell the product, get elected, confirm or refute your hypothesis.\nCommunication-Specific goals (Immediate Objectives): Inform the voters, educate the students, persuade the legislator, motivate the staff, solve a problem.\nMultiple Goals: Most communications will have multiple goals across these categories. The challenge is often in balancing these goals effectively.\nAlignment: Ensure that your communication-specific goals align with your overarching goals and are appropriate for your audience characteristics.\nMeasurability: Where possible, try to make goals specific and measurable. This can help in evaluating the success of your communication.\nFlexibility: Be prepared to adjust your goals based on feedback or changing circumstances."
+    "text": "SUMMARY\nWho is the AUDIENCE? What is the GOAL?\n\nAUDIENCEGOALS\n\n\n\nReceptivity: Are they hostile to your message, or predisposed to it?\nInfluence: Do they have the power to help you achieve your goal?\nEngagement: Are you competing with other factors for their attention?\nExpertise: How much prior knowledge do they have related to your content?\nNeeds: What type of affordances must you provide? Consider the required access to technology for your communication.\nExpectations: Are there disciplinary or cultural norms or expectations (e.g. formality, format, content)?\nDiversity: How big is the audience, and how much variation in the above characteristics may exist among individuals?\nGoals: Your audience has goals too. How do their goals align with yours?\n\n\n\n\nOverarching goals (Long-term Objectives): Get the job, sell the product, get elected, confirm or refute your hypothesis.\nCommunication-Specific goals (Immediate Objectives): Inform the voters, educate the students, persuade the legislator, motivate the staff, solve a problem.\nMultiple Goals: Most communications will have multiple goals across these categories. The challenge is often in balancing these goals effectively.\nAlignment: Ensure that your communication-specific goals align with your overarching goals and are appropriate for your audience characteristics.\nMeasurability: Where possible, try to make goals specific and measurable. This can help in evaluating the success of your communication.\nFlexibility: Be prepared to adjust your goals based on feedback or changing circumstances.\n\n\n\n\n\n\n\nHOME"
   },
   {
-    "objectID": "posts/A1-Lit-Prog/index.html",
-    "href": "posts/A1-Lit-Prog/index.html",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "objectID": "posts/A4-CodeCommunication/index.html",
+    "href": "posts/A4-CodeCommunication/index.html",
+    "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "",
-    "text": "The idea of Literate Programming is that source code that is executed as part of the program’s purpose is interspersed with documentation that describes the program’s logic. The concept of literate programming was first articulated by David Knuth in 1984. You know… back when music was good? Modern Data Science leans pretty heavily on literate programming, and to be honest, there aren’t very many good arguments as to why you WOULDN’T want to implement this approach in your own work. Bearing this in mind, we will adopt this framework for most of the activities, exercises, and assignments in this course. All of us will benefit by practicing these skills."
+    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
   },
   {
-    "objectID": "posts/A1-Lit-Prog/index.html#summary",
-    "href": "posts/A1-Lit-Prog/index.html#summary",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "objectID": "posts/A4-CodeCommunication/index.html#summary",
+    "href": "posts/A4-CodeCommunication/index.html#summary",
+    "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "",
-    "text": "The idea of Literate Programming is that source code that is executed as part of the program’s purpose is interspersed with documentation that describes the program’s logic. The concept of literate programming was first articulated by David Knuth in 1984. You know… back when music was good? Modern Data Science leans pretty heavily on literate programming, and to be honest, there aren’t very many good arguments as to why you WOULDN’T want to implement this approach in your own work. Bearing this in mind, we will adopt this framework for most of the activities, exercises, and assignments in this course. All of us will benefit by practicing these skills."
+    "text": "While we generally tend to focus on the more common channels of communication in this class (Speaking, Writing, Showing), we should acknowledge that communicating with code is becoming very common. In this assignment, we’ll take your most recent data figure(s) and explore how literate programming and version control can be valuable tools for communicating your data science activities. Github is fun!!!"
   },
   {
-    "objectID": "posts/A1-Lit-Prog/index.html#literate-programming-publishing-systems",
-    "href": "posts/A1-Lit-Prog/index.html#literate-programming-publishing-systems",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
-    "section": "LITERATE PROGRAMMING PUBLISHING SYSTEMS",
-    "text": "LITERATE PROGRAMMING PUBLISHING SYSTEMS\nI’m trying to keep this course as technology agnostic as I can. The idea is that you should be practicing and building competencies in the languages and algorithms that are most useful to you. Who am I to tell you to use R instead of Python? If you have skills in a particular language I encourage you to keep using that during this course. That being said, I am going to work the examples using R and R Studio, and I will (mostly) use Quarto as the literate programming framework.\nIf all of this is new to you, no problem. Just follow along in R and Quarto and start your skill building journey with those languages.\nIf you are a Python person, great! Quarto can accommodate that language as well. If you have another preference for literate programming, such as sticking with R Markdown until the Quarto bugs are fixed, that is great. Find the framework and tools that work for you, and practice, practice, practice!\n\nQuarto\nAn open source publishing system that allows you to create websites, documents, blogs, books, publications, presentations, and more while using R, Python, Julia, or Observable. Quarto is intended to be the more functional successor of R Markdown. I intend to use Quarto for most of my work in this course.\n\n\nR Markdown\nAnother publishing system for creating all the things … websites, slides, manuscripts, dashboards, etc. While most people (including me!) instinctively think of R and Python within R Markdown, the list of supported language engines is pretty extensive.\n\nnames(knitr::knit_engines$get())\n\n [1] \"awk\"       \"bash\"      \"coffee\"    \"gawk\"      \"groovy\"    \"haskell\"  \n [7] \"lein\"      \"mysql\"     \"node\"      \"octave\"    \"perl\"      \"php\"      \n[13] \"psql\"      \"Rscript\"   \"ruby\"      \"sas\"       \"scala\"     \"sed\"      \n[19] \"sh\"        \"stata\"     \"zsh\"       \"asis\"      \"asy\"       \"block\"    \n[25] \"block2\"    \"bslib\"     \"c\"         \"cat\"       \"cc\"        \"comment\"  \n[31] \"css\"       \"ditaa\"     \"dot\"       \"embed\"     \"eviews\"    \"exec\"     \n[37] \"fortran\"   \"fortran95\" \"go\"        \"highlight\" \"js\"        \"julia\"    \n[43] \"python\"    \"R\"         \"Rcpp\"      \"sass\"      \"scss\"      \"sql\"      \n[49] \"stan\"      \"targets\"   \"tikz\"      \"verbatim\"  \"ojs\"       \"mermaid\""
-  },
-  {
-    "objectID": "posts/A1-Lit-Prog/index.html#languages-and-toolsets",
-    "href": "posts/A1-Lit-Prog/index.html#languages-and-toolsets",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
-    "section": "LANGUAGES AND TOOLSETS",
-    "text": "LANGUAGES AND TOOLSETS\nThere are quite a few, but the five that seemed to keep coming up as I prepped this course are:\n\nR\nA very powerful open source framework for statistical computing and graphics. R has a lot of base functionality, and its capabilities are increased by 100 fold with packages created by R users. Packages are the core units of R code. I’m going to use R for the vast majority of demonstrations in this course.\n\n\nPython\nPython is an open source general purpose programming language. It wasn’t developed just for statistical computing or data science, and people use this language for tons of different applications. There is no denying it has become a very powerful language for data science and data visualization.\n\n\nTableau\nTableau is proprietary software that is very powerful for creating beautiful and functional data visualizations. It can integrate with all sorts of data sources and is used a lot for analytics, especially in the business world. The downsides (that occur to me at least) are that it costs money, it is not open source, and is more of a one-trick-pony than the programming languages on this list. It may be a great tool in your communication tool kit, but you will need to use additional things for communication tasks that go beyond “showing” into speaking and writing.\n\n\nJavascript\nJavascript has been around for about 25 years, and is (I think) the world’s most popular programming language. Along with HTML and CSS, Javascript drives pretty much the entire internet. I mention Javascript here because it has the D3 library, which can create super cool interactive data visualizaitons. In my experience, the learning curve with Javascript and D3 was pretty steep. I bought a book about it once, but just haven’t been able to allocate the amount of time necessary to really start using it. Check out the gallery of examples. Amazing!\n\n\nObservable / D3\nObservable is a set of extensions to Javascript that features something called reactive runtime. This means that the code blocks are executed and compiled as they are written, and changes are implemented instantaneously. Observable is pretty great for data exploration, and is well supported by Quarto. In addition, you can use the Observable JS libraries in Quarto to access D3. We’ll use some of these tools in this course, especially when we start considering interactivity."
-  },
-  {
-    "objectID": "posts/A1-Lit-Prog/index.html#assignment",
-    "href": "posts/A1-Lit-Prog/index.html#assignment",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "objectID": "posts/A4-CodeCommunication/index.html#assignment",
+    "href": "posts/A4-CodeCommunication/index.html#assignment",
+    "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "ASSIGNMENT",
-    "text": "ASSIGNMENT\nAfter that long introduction, I suppose you are wondering what I want you to actually DO today.\nWell, I want you to set up your publishing system and preferred language on your computer. Then I want you to create a quarto project and render an html page.\nNow, you might be asking…\n“How am I supposed to do that? You haven’t taught me how to do anything yet!”\nHere is the dirty little secret of modern education.\nThe Internet Exists.\nWhile I could use up an entire 50 minute lecture telling you how to:\n\nDownload and install R, R-Studio, and Quarto (included by default with R-Studio).\nCreate a Quarto document that will publish in the .html format\n\nI’m not going to do that.\nInstead, I want you to use the resources I point towards, or other resources that make more sense to you, to figure out how to do those things."
+    "text": "ASSIGNMENT\nUse your most recent data figure(s) and create a new blog post in your portfolio.\n\nAnnotate your post using Markdown syntax. Use headers, lists, and other markdown tools to create a document that helps the audience understand the logic of your analysis and any decisions you made.\nWithin each code chunk, use comments to describe what each major piece of your code is intended to do."
   },
   {
-    "objectID": "posts/A1-Lit-Prog/index.html#resources",
-    "href": "posts/A1-Lit-Prog/index.html#resources",
-    "title": "ASSIGNMENT 1 - Fun with literate programming.",
+    "objectID": "posts/A4-CodeCommunication/index.html#evaluation",
+    "href": "posts/A4-CodeCommunication/index.html#evaluation",
+    "title": "ASSIGNMENT 4 - Communicating with Code.",
+    "section": "EVALUATION",
+    "text": "EVALUATION\nIn class, we will randomly trade code with a partner (including me). Our goal is to download, run, and explain the code from your partner. Fun!"
+  },
+  {
+    "objectID": "posts/A4-CodeCommunication/index.html#resources",
+    "href": "posts/A4-CodeCommunication/index.html#resources",
+    "title": "ASSIGNMENT 4 - Communicating with Code.",
     "section": "RESOURCES",
-    "text": "RESOURCES\nHandy cheat-sheets for many different R packages\nTutorial 1 - Literate Programming"
+    "text": "RESOURCES\nQuarto Markdown Basics\nFor extra flair, try Code Annotations!"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Tutorial 2 - Communicating with Code",
+    "section": "",
+    "text": "Test!"
   },
   {
     "objectID": "posts/A2-VersionControl/index.html",
@@ -390,54 +488,5 @@
     "title": "BCB 521:: Communicating with Data",
     "section": "",
     "text": "The Functional Art\nGGSIDE! A companion to ggplot for making side plots! COOL!\nAwesome Quarto: A potentially interesting repository of Quarto documents, talks, tools, examples, etc.\nThe MockUp Blog - TABLES! This blog post explores the R packages gt and gtextras which will help us up our table game!\nRiffomonas Project: Pat Schloss is a Professor at the University of Michigan. The Riffomonas Project is his Youtube channel, which has HUNDREDS of easy to follow and amazingly useful instructional videos on R, ggplot, version control, and literate programming.\nDr. Tamara Munzner’s Website: It isn’t fancy, but Dr. Munzner’s website has tons of resources from her textbook and the many data visualization courses she has offered. This includes recorded lectures that align directly with the chapters of the text, much like what we are using.\nCheat Sheets: So many visual guides for many R packages, including the tidyverse, ggplot, dplyr, etc.\nLearning Vis Tools: Teaching Data Visualization Tutorials An interesting paper for discussion as we forge the structure for this class."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "",
-    "text": "Test!"
-  },
-  {
-    "objectID": "posts/L1-Intro/index.html",
-    "href": "posts/L1-Intro/index.html",
-    "title": "LECTURE 1 - INTRO",
-    "section": "",
-    "text": "Department of Biological Sciences\nInstitute for Interdisicplinary Data Sciences\nPolymorphic Games\nUniversity of Idaho"
-  },
-  {
-    "objectID": "posts/T2_CodeComm/CodeComm.html",
-    "href": "posts/T2_CodeComm/CodeComm.html",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "",
-    "text": "The purpose of this post is to provide some example data visualizations that can be presented to the player of our new evolutionary video game, Shep.Herd. The game features a generational evolutionary model, and between each generation the player can earn bonus resources if they correctly answer a data literacy question.\nThe visualizations are separated by milestones related to game progress. Some visualizations are not informative until the player has progressed through more than 5 generations."
-  },
-  {
-    "objectID": "posts/T2_CodeComm/CodeComm.html#assessing-data-science-literacy-in-shep.herd",
-    "href": "posts/T2_CodeComm/CodeComm.html#assessing-data-science-literacy-in-shep.herd",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "",
-    "text": "The purpose of this post is to provide some example data visualizations that can be presented to the player of our new evolutionary video game, Shep.Herd. The game features a generational evolutionary model, and between each generation the player can earn bonus resources if they correctly answer a data literacy question.\nThe visualizations are separated by milestones related to game progress. Some visualizations are not informative until the player has progressed through more than 5 generations."
-  },
-  {
-    "objectID": "posts/T2_CodeComm/CodeComm.html#reading-in-the-data",
-    "href": "posts/T2_CodeComm/CodeComm.html#reading-in-the-data",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "Reading in the data",
-    "text": "Reading in the data\nFor the purposes of this example, I’m using a data file called newdata4.csv from a single run of the game.\n\n\nCode\ndf = pd.read_csv('newdata4.csv')\n\ndf_wave_0 = df[df['Wave Number'] == 0] # Some visualizations will focus only on the first generation (wave 0)\n\ndf_wave_4 = df[df['Wave Number'] == 3] # Some visualizations will focus only on generations between 0 and 4 so we will use generation 3 as an example.\n\n\nEach dataframe features 27 columns, and 300 observations per generation (one observation per enemy in the population). The columns define a variety of traits and genes that are potenially under selection by the player’s defenses. There are also metadata related to the enemy ID, its parents, and the number of offspring it contributed to the next generation (that the player is about to face)."
-  },
-  {
-    "objectID": "posts/T2_CodeComm/CodeComm.html#after-generation-0",
-    "href": "posts/T2_CodeComm/CodeComm.html#after-generation-0",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "After Generation 0",
-    "text": "After Generation 0\nAfter defeating the first generation, the player could be shown graphs summarizing a limited set of traits. These could include Speed, Tower Atraction, Slime Attraction, and Turn Rate. The two types of visualizations at this stage could be Histograms or Scatterplots. The tabsets below show examples of these plots, and each is accompanied by some questions that could be used in the game to assess player data literacy.\n\nTrait HistogramsScatterplots\n\n\n\n\nCode\n# Define bin edges\nbin_edges = np.arange(0, 12.5, 0.5)\n\n# Create a histogram using plotly with custom bins\n# Note that my choice of the Speed Trait here was arbitrary.  I could have used other traits from the list.\n\nfig = go.Figure(data=[go.Histogram(\n    x=df_wave_0['Speed Trait'],\n    xbins=dict(\n        start=0,\n        end=12,\n        size=0.5\n    ),\n    autobinx=False\n)])\n\n# Update the layout for better readability\n\nfig.update_layout(\n    title='Histogram of Speed (Wave Number = 0)',\n    xaxis_title='Speed',\n    yaxis_title='Number of Slimes',\n    bargap=0.1,\n    xaxis=dict(\n        range=[0, 12],\n        tickmode='array',\n        tickvals=list(range(0, 13)),\n        ticktext=[f\"{i:.1f}\" for i in range(0, 13)]\n    )\n)\n\n# Save the plot as an HTML file\nfig.write_html('speed_histogram.html')\n\n# This will allow us to display the plot in Quarto\nfig.show()\n\n\n                                                \n\n\n\nWhat is the correct name for this type of graph?\n\nA. Scatterplot\nB. Histogram\nC. Regression Line\nD. Time Series\n\n\n\n\nClick to see the answer\n\nAnswer: B. Histogram\nExplanation: A Histogram is a special type of bar chart that shows the frequency distribution of another variable.\n\n\nWhat is your best estimate of the range of the data for Speed?\n\nA. 1.0 to 5.5\nB. 1.0 to 5.0\nC. 0.0 to 12.0\nD. 0.0 to 109.0\n\n\n\n\nClick to see the answer\n\nAnswer: A. 1.0 to 5.5\nExplanation: Values of Speed are shown on the x axis, and the range is defined as the lowest and highest value of the variable. The lowest value of Speed is in the 1.0 bin, and the highest value is in the 5.5 bin.\n\n\nWhat bin contains the Mode of the distribution for Speed?\n\nA. 1.0 to 1.5\nB. 109 Slimes\nC. 2.0 to 2.5\nD. 6.0 to 6.5\n\n\n\n\nClick to see the answer\n\nAnswer: C. 2.0 to 2.5\nExplanation: The Mode of a distribution is its most frequently observed value. In this case, the 2.0 to 2.5 bin contains the most slimes.\n\n\n\n\n\nCode\n# Create a scatterplot using plotly.  Again, the choice of traits here is arbitrary.\nfig = px.scatter(df_wave_0, \n                 x='Speed Trait', \n                 y='Tower Attraction Trait',\n                 title='Scatterplot of Speed Trait vs Tower Attraction (Wave Number = 0)')\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Speed Trait',\n    yaxis_title='Tower Attraction Trait',\n    xaxis=dict(range=[0, 6]),  # Adjusting based on the histogram range\n)\n\n# Save the plot as an HTML file\nfig.write_html('speed_tower_scatterplot.html')\n\n# Display the plot\nfig.show()\n\n# Print some information about the filtered dataset\nprint(f\"Number of observations with Wave Number 0: {len(df_wave_0)}\")\nprint(f\"Correlation between Speed Trait and Tower Attraction Trait:\")\nprint(df_wave_0[['Speed Trait', 'Tower Attraction Trait']].corr())\n\n\n                                                \n\n\nNumber of observations with Wave Number 0: 300\nCorrelation between Speed Trait and Tower Attraction Trait:\n                        Speed Trait  Tower Attraction Trait\nSpeed Trait                1.000000                0.024498\nTower Attraction Trait     0.024498                1.000000\n\n\n\nWhat type of relationship appears to exist between Speed Trait and Tower Attraction Trait?\n\nA. Strong positive correlation\nB. Strong negative correlation\nC. Weak positive correlation\nD. No clear correlation\n\n\nClick to see the answer\n\nAnswer: D. No clear correlation Explanation: The scatterplot shows no clear pattern or trend between Speed Trait and Tower Attraction Trait, indicating no clear correlation between these variables.\n\n\nWhat is the approximate range of values for the Tower Attraction Trait?\n\nA. 0 to 6\nB. 0 to 12\nC. -6 to 6\nD. -12 to 12\n\n\nClick to see the answer\n\nAnswer: C. -6 to 6 Explanation: The y-axis of the scatterplot, which represents the Tower Attraction Trait, appears to range from approximately -6 to 6.\n\n\nOn this graph, what does each individual point (circle) represent?\n\nA. The maximum value of [Trait 1] and [Trait 2] from all previous Generations of slimes.\nB. The average values of the Traits for each slime from Generation X.\nC. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\nD. The probability that each Slime will reproduce this generation.\n\n\nClick to see the answer\n\nAnswer: C. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X. Explanation: This is a scatter plot of trait values from the previous generation. A scatterplot plots exact values for two quantitative variables (Traits) on two orthogonal axes."
-  },
-  {
-    "objectID": "posts/T2_CodeComm/CodeComm.html#after-generation-3",
-    "href": "posts/T2_CodeComm/CodeComm.html#after-generation-3",
-    "title": "Tutorial 2 - Communicating with Code",
-    "section": "After Generation 3",
-    "text": "After Generation 3\nAfter playing the game for a few generations, additional visualizations are possible. In particular, the player will notice the emergence of different enemy types (all enemies start as basic in gen 0). The enemy types are Basic, Blaster, Ice, Fire, Laser, and Acid. The type is specified in the Main Type column.\n\nType chartsFitness Charts\n\n\nHere we introduce visualizations related to discrete data (Type) and count data (frequency).\n\n\nCode\n# Define the custom color palette.  I hated the defaults.\ncolor_palette = {\n    'Basic': '#D3D3D3',  # Light grey\n    'Blaster': '#8B0000',  # Dark reddish grey\n    'Ice': '#1E90FF',  # Blue\n    'Fire': '#FFA500',  # Orange\n    'Laser': '#800080',  # Purple\n    'Acid': '#00FF00'  # Green\n}\n\n# Count the frequency of each Main Type\nmain_type_counts = df_wave_4['Main Type'].value_counts().reset_index()\nmain_type_counts.columns = ['Main Type', 'Count']\n\n# Create a column chart using plotly with custom colors\nfig = px.bar(main_type_counts, x='Main Type', y='Count',\n             title='Distribution of Main Types (Wave Number = 4)',\n             color='Main Type',\n             color_discrete_map=color_palette)\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Main Type',\n    yaxis_title='Number of Slimes',\n    xaxis_tickangle=-45\n)\n\n# Save the plot as an HTML file\nfig.write_html('main_type_distribution_colored.html')\n\n# Display the plot\nfig.show()\n\n\n                                                \n\n\nWe should totally do a bargraph race at the end of the game! Plus other animated graphs!\n\nWhat is the correct name for this type of graph?\n\nA. Scatterplot\nB. Bar Chart\nC. Regression Line\nD. Time Series\n\n\n\n\nClick to see the answer\n\nAnswer: B. Bar Chart\nExplanation: A Bar Chart is used to represent a quantitative variable (the height of the bar) for a set of discrete groups (arranged on the x axis).\n\n\nWhat is your best estimate of the number of Blaster type slimes?\n\nA. 11\nB. 1\nC. 0 to 300\nD. 46\n\n\n\n\nClick to see the answer\n\nAnswer: A. 11\nExplanation: The number of slimes for each type is represented by the height of each bar. Try hovering over the Blaster type bar to see its corresponding value for the y axis.\n\n\nWhat type of slime is the least frequent in the population?\n\nA. Blaster\nB. Basic\nC. Acid\nD. Fire\n\n\n\n\nClick to see the answer\n\nAnswer: D. Fire\nExplanation: The least frequent slime type is the represented by the bar with the lowest value. In this case, there are only XXX fire slimes, a number lower than all the other groups.\n\n\n\nNow that a few generations have passed, we can introduce the concept of fitness. In this case, the enemies are being evaluated by how close they are getting to the space sheep. We can use a scatterplot to show the player the relationship between fitness and the number of offspring produced by each enemy.\n\n\nCode\n# Create a scatterplot using plotly\nfig = px.scatter(df_wave_4, \n                 x='Sheep Distance Fitness', \n                 y='Offspring Count',\n                 title='Scatterplot of Fitness Trait vs number of Offspring (Wave Number = 4)')\n\n# Update the layout for better readability\nfig.update_layout(\n    xaxis_title='Sheep Fitness',\n    yaxis_title='Offspring'\n)\n\n# Save the plot as an HTML file\nfig.write_html('fit_babies_scatterplot.html')\n\n# Display the plot\nfig.show()\n\n\n                                                \n\n\n\nWhat type of relationship appears to exist between Fitness trait and number of Offspring?\n\nA. Strong positive correlation\nB. Strong negative correlation\nC. Weak positive correlation\nD. No clear correlation\n\n\nClick to see the answer\n\nAnswer: A. Strong positive correlation\n\n\nExplanation: The scatterplot shows a strong positive correlation between Fitness and offspring.\n\n\nWhat is the approximate range of values for the number of offspring?\n\nA. 0 to 6\nB. 0 to 12\nC. -6 to 6\nD. -12 to 12\n\n\nClick to see the answer\n\nAnswer: B. 0 to 12\n\n\nExplanation: The y-axis of the scatterplot represents the number of offspring. The lowest point value is at zero and the highest is 12.\n\n\nOn this graph, what does each individual point (circle) represent?\n\nA. The maximum value of [Trait 1] and [Trait 2] from all previous Generations of slimes.\nB. The average values of the Traits for each slime from Generation X.\nC. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\nD. The probability that each Slime will reproduce this generation.\n\n\nClick to see the answer\n\nAnswer: C. The exact values of [Trait 1] and [Trait 2] for each slime from Generation X.\n\n\nExplanation: This is a scatter plot of trait values from the previous generation. A scatterplot plots exact values for two quantitative variables (Traits) on two orthogonal axes."
   }
 ]

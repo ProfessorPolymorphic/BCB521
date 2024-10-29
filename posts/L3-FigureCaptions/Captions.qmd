@@ -1,0 +1,64 @@
+---
+title: "LECTURE 3 - CAPTIONS"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    footer: <a href="https://professorpolymorphic.github.io/BCB521/" target="_blank">HOME</a>
+    theme: [default, custom.scss]
+
+author: "Barrie Robison"
+date: "2024-10-29"
+categories: [Lecture, Writing, Captions, Figures]
+image: "caption.png"
+
+---
+
+## Writing About Data
+
+A figure is worth 1000 words.... or some crap... I don't know...
+
+## REMEMBER OUR THEME!
+
+**Who is the Audience?  What is the goal?**
+
+Any general advice can be invalidated by your specific requirements.  For example, the Associate Editor of the Journal *Science* won't care what you learned in this class.  They have guidelines and you must follow them.
+
+![](SciFig.png)
+
+## SELF CONTAINED
+
+The caption and the figure should create a stand alone entity that can be understood without reference to the main text of the document.  Components may include:
+
+- Declarative Title.
+- Methods.
+- Statistical Information.
+
+## DECLARATIVE TITLE
+
+... or not?
+
+A **Declarative Title** summarizes your result or main finding. This may or may not be appropriate. Is the title clarifying the communication or biasing the reader? 
+
+![](Comparisons-1024x573.png)
+
+## METHODS AND STATISTICS
+
+![](Scatterplot-1024x667.png)
+
+## CAPTION vs LEGEND
+
+![](Caption-or-legends-1024x523.png)
+
+## SCOPE
+
+1 Figure for 1 Question.
+
+![](Overarching-1-1024x807.png)
+
+## NOW YOU TRY!
+
+Grab one of your figures from your previous assignments.  Write a comprehensive figure caption.
